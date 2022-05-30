@@ -8,4 +8,6 @@ class App < Sinatra::Base
   
 end
 
-run App
+require "./config/environment"
+
+run ApplicationController
